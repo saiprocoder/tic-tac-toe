@@ -86,3 +86,16 @@ nav ul {
     opacity: 0;
     transition: opacity 0.6s ease-in-out;
 }
+
+@media screen and (max-width: 900px) {
+    .gameContainer {
+        flex-wrap: wrap;
+    }
+    .gameInfo {
+        margin-top: 34px;
+    }
+    .container {
+        grid-template-columns: repeat(3, 20vw);
+        grid-template-rows: repeat(3, 20vw);
+    }
+}
